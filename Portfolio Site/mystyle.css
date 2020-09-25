@@ -1,0 +1,112 @@
+/*For whole document*/
+html, body {
+  margin:0;
+  padding:0;
+}
+
+body {
+    background-color: #696773;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+/*Header Formatting*/
+header {
+  background-color: #93A67D;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+#name-container {
+  position: relative;
+  top: 31px;
+  left: 10px;
+  color: white;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+header ul li {
+  float: left;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+header ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background-color: #646F4B;
+}
+
+#contact-button {
+  background-color: #f55d3e;
+}
+
+#contact-button:hover {
+  background-color: #aa2409;
+}
+
+/*For each main content block */
+.content {
+  margin:10px;
+  padding:10px;
+  background-color: #C6C7D2;
+}
+
+/*For Mini About Me seciton*/
+#about {
+  display: flex;
+
+}
+
+#face {
+  float: left;
+  margin-right:15px;
+  /*
+  width:
+  height:
+  */
+}
+
+#secret-div {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+/*For Projects Section*/
+#projects {
+  display: grid;
+
+  flex-grow: 1;
+  resize: horizontal;
+  overflow: auto;
+
+}
+
+/*For Form*/
+form input[type="radio"] {
+  display: inline-block;    
+}
+textarea {
+  width: 248px;
+  height: 50px;
+}
